@@ -307,7 +307,8 @@ int asm_cmp(const void *a, const void *b) {
 > void qsort(void *base, size_t nitems, size_t size, int (*compar)(const void *, const void*))
 > ```
 
-> Hint: you might want to consider the pseudo-assembly `la xn, LABEL` to load a label address into a register. 
+> [!TIP]
+> You might want to consider the pseudo-assembly `la xn, LABEL` to load a label address into a register. 
 
 ### 2.2 String concatenation
 
